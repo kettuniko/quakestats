@@ -5,7 +5,7 @@ Ultramodern app for inspecting quake stats
 
 Goals:
 
-enable data-driven networking
+enable data-driven networking\n
 reinvent dynamic podcasts
 engage semantic web services
 aggregate A-list mashups
