@@ -13,4 +13,5 @@ Ultramodern app for inspecting quake stats
   <li>incentivize embedded wikis</li>
   <li>harness user-contributed network effects</li>
   <li>control truckmen</li>
+  <li>make home baked jokes</li>
 </ul>
