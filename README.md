@@ -16,3 +16,10 @@ Ultramodern app for inspecting quake stats
   <li>make home baked jokes</li>
   <li>bake home make cookes</li>
 </ul>
+
+
+<h3>Running</h3>
+
+sudo gem install sinatra
+
+ruby rest.rb
