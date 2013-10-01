@@ -1,5 +1,5 @@
 require 'sinatra'
-require 'JSON'
+require 'json'
 
 get '/players' do
   players = 
