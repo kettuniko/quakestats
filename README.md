@@ -20,6 +20,7 @@ Ultramodern app for inspecting quake stats
 
 <h3>Running</h3>
 
+sudo gem install json
 sudo gem install sinatra
 
 ruby rest.rb
