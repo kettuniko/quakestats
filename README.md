@@ -18,10 +18,7 @@ Ultramodern app for inspecting quake stats
 </ul>
 
 
-<h3>Running</h3>
+<h3>Running the rest API</h3>
 
-sudo gem install json
-
-sudo gem install sinatra
-
-ruby rest.rb
+bundle install
+bundle exec ruby rest.rb
