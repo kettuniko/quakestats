@@ -3,16 +3,13 @@ quakestats
 
 Ultramodern app for inspecting quake stats
 
-<h3>Goals:</h3>
+<h3>TODO UI:</h3>
 
 <ul>
-  <li>enable data-driven networking</li>
-  <li>reinvent dynamic podcasts</li>
-  <li>engage semantic web services</li>
-  <li>aggregate A-list mashups</li>
-  <li>incentivize embedded wikis</li>
-  <li>harness user-contributed network effects</li>
-  <li>control truckmen</li>
+  <li>write dev environment installation manual</li>
+  <li>clean up boilerplate code</li>
+  <li>use webservice</li>
+  <li>implement badges</li>
   <li>make home baked jokes</li>
   <li>bake home make cookes</li>
 </ul>
