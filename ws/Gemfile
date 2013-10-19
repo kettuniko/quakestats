@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+gem 'compass'
 gem 'sinatra'
 gem 'libxml-ruby'
 gem 'xml-simple'
