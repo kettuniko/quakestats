@@ -3,7 +3,7 @@ dist
 .tmp
 .sass-cache
 app/bower_components
-
+ui/app/bower_components
 
 # IDEA stuff
 *.iml
