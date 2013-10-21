@@ -14,16 +14,19 @@ Ultramodern app for inspecting quake stats
   <li>bake home make cookes</li>
 </ul>
 
-<h3>To install & build ui</h3>
-  <ul>
-		<li>cd ui/</li>
+<h3>To install & run ui</h3>
+<ul>
+	<li>cd ui/</li>
   	<li>npm install</li>
-  	<li>(grunt build)</li>
+  	<li>bower install</li>
+  	<li>grunt server</li>
 </ul>
 
 "npm install" downloads required node modules and other dependencies to local cache. 
 
-"grunt buld" builds the app (minification etc.)
+"bower install" downloads required js libraries. 
+
+"grunt server" builds and runs the app (does minification etc.)
 
 <h3>Running the rest API</h3>
 
