@@ -3,3 +3,10 @@ dist
 .tmp
 .sass-cache
 app/bower_components
+
+
+# IDEA stuff
+*.iml
+*.ipr
+*.iws
+.idea/
