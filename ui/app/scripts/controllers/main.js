@@ -1,10 +1,7 @@
 'use strict';
 
 angular.module('quakestatsApp')
-  .controller('MainCtrl', ['$scope', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  }]);
+    .controller('MainCtrl', ['$scope', 'Players', function ($scope, Players) {
+        $scope.players = Players.query();
+        $scope.order = "frags";
+    }]);
