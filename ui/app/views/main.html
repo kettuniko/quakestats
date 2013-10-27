@@ -4,6 +4,6 @@
     <p>Best players</p>
     <ul>
         <!--TODO orderby frags-->
-        <li ng-repeat="(key, player) in players">{{key}} {{player.frags}}</li>
+        <li ng-repeat="player in players | orderBy:'frags':true">{{player.name}} {{player.frags}}</li>
     </ul>
 </div>
