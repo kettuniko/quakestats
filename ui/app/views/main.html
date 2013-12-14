@@ -3,7 +3,7 @@
 
     <p>Best players</p>
     <ul>
-        <!--TODO orderby frags-->
-        <li ng-repeat="player in players | orderBy:'frags':true">{{player.name}} {{player.frags}}</li>
+        <input type="text" ng-model="filter"/>
+        <li ng-repeat="player in players | orderBy:'frags':true | filter:filter" >{{player.name}} {{player.frags}}</li>
     </ul>
 </div>

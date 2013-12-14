@@ -2,17 +2,17 @@
 
 describe('Service: Players', function () {
 
-  // load the service's module
-  beforeEach(module('QuakestatsApp'));
+    // load the service's module
+    beforeEach(module('QuakestatsApp'));
 
-  // instantiate service
-  var Players;
-  beforeEach(inject(function(_Players_) {
-    Players = _Players_;
-  }));
+    // instantiate service
+    var Players;
+    beforeEach(inject(function (_Players_) {
+        Players = _Players_;
+    }));
 
-  it('should do something', function () {
-    expect(!!Players).toBe(true);
-  });
+    it('should do something', function () {
+        expect(!!Players).toBe(true);
+    });
 
 });
